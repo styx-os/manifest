@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="styx"
+           fetch="https://github.com/styx-os"
+           revision="R" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Build repositories -->
+  <project path="build/make" name="build" remote="styx" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="styx" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="bionic" remote="styx"/>
+  <project path="build/blueprint" name="build_blueprint" remote="styx"/>
+  <project path="frameworks/base" name="frameworks_base" remote="styx"/>
+  <project path="system/core" name="system_core" remote="styx"/>
+  <project path="system/vold" name="system_vold" remote="styx"/>  
+  <!-- Vendor -->
+  <project path="vendor/styx" name="vendor_styx" remote="styx" />
+
+</manifest>
