@@ -28,6 +28,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="styx" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="styx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="styx"/>
+  <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
   <project path="system/core" name="system_core" remote="styx"/>
   <project path="system/vold" name="system_vold" remote="styx"/>  
   <!-- Vendor -->
