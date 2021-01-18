@@ -24,13 +24,26 @@
   </project>
   <project path="bionic" name="bionic" remote="styx"/>
   <project path="build/blueprint" name="build_blueprint" remote="styx"/>
+
+  <!-- Frameworks repos -->
   <project path="frameworks/base" name="frameworks_base" remote="styx"/>
   <project path="frameworks/av" name="frameworks_av" remote="styx" />
+
+  <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="styx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="styx"/>
+
+  <!-- External -->
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
+
+  <!-- System -->
   <project path="system/core" name="system_core" remote="styx"/>
   <project path="system/vold" name="system_vold" remote="styx"/>  
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="styx" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="styx"/>
+
   <!-- Vendor -->
   <project path="vendor/styx" name="vendor_styx" remote="styx" />
 
