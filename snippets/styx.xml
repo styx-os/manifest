@@ -46,5 +46,6 @@
 
   <!-- Vendor -->
   <project path="vendor/styx" name="vendor_styx" remote="styx" />
+  <project path="vendor/styx-ui" name="vendor_styx-ui" remote="styx" />
 
 </manifest>
