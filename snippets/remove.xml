@@ -4,6 +4,7 @@
   <!-- Repos tracked from Styx -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bootable/recovery" />
 
   <!-- Useless repos -->
   <remove-project name="device/amlogic/yukawa" />

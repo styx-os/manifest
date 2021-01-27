@@ -25,6 +25,9 @@
   <project path="bionic" name="bionic" remote="styx"/>
   <project path="build/blueprint" name="build_blueprint" remote="styx"/>
 
+  <!-- Styx Recovery -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="styx"/>
+
   <!-- Frameworks repos -->
   <project path="frameworks/base" name="frameworks_base" remote="styx"/>
   <project path="frameworks/av" name="frameworks_av" remote="styx" />
