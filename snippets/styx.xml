@@ -50,6 +50,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="styx" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="styx" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="styx"/>
 
   <!-- Vendor -->
