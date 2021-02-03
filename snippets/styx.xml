@@ -50,6 +50,7 @@
   <!-- System -->
   <project path="system/core" name="system_core" remote="styx"/>
   <project path="system/vold" name="system_vold" remote="styx"/>  
+  <project path="system/bt" name="system_bt" remote="styx"/>
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="styx"/>
