@@ -53,6 +53,7 @@
   <project path="system/bt" name="system_bt" remote="styx"/>
 
   <!-- Packages -->
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="styx"/>
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="styx"/>
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="styx"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="styx" />
