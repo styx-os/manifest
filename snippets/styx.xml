@@ -43,6 +43,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
 
   <!-- Device -->
+  <project path="device/styx/sepolicy" name="device_styx_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="styx" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="styx" />
