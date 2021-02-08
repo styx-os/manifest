@@ -25,6 +25,9 @@
   <project path="bionic" name="bionic" remote="styx"/>
   <project path="build/blueprint" name="build_blueprint" remote="styx"/>
 
+  <!-- Android RunTime -->
+  <project path="art" name="art" remote="styx" />
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="styx"/>
 
