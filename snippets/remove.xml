@@ -93,4 +93,5 @@
   <remove-project name="platform/system/vold"/>
   <remove-project name="platform/system/bt"/>
   <remove-project name="platform/art"/>
+  <remove-project name="platform/system/memory/lmkd"/>
 </manifest>

@@ -34,6 +34,7 @@
   <!-- Styx Recovery -->
   <project path="bootable/recovery" name="bootable_recovery" remote="styx"/>
 
+
   <!-- Frameworks repos -->
   <project path="frameworks/base" name="frameworks_base" remote="styx"/>
   <project path="frameworks/av" name="frameworks_av" remote="styx" />
@@ -55,6 +56,7 @@
   <project path="system/core" name="system_core" remote="styx"/>
   <project path="system/vold" name="system_vold" remote="styx"/>  
   <project path="system/bt" name="system_bt" remote="styx"/>
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="styx"/>
 
   <!-- Packages -->
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="styx"/>
