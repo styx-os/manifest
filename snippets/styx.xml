@@ -77,6 +77,5 @@
   <!-- Vendor -->
   <project path="vendor/styx" name="vendor_styx" remote="styx" />
   <project path="vendor/styx-ui" name="vendor_styx-ui" remote="styx" />
-  <project path="vendor/cdp" name="vendor_cdp" remote="styx"/>
 
 </manifest>
