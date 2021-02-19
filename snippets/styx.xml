@@ -60,6 +60,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="styx" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="styx" />
+  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="github" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="styx"/>
@@ -82,5 +83,6 @@
   <project path="vendor/styx-ui" name="vendor_styx-ui" remote="styx" />
   <project path="vendor/google/gms" name="StatiXOS/android_vendor_google_gms" remote="gitlab" revision="11"/>
   <project path="vendor/google/pixel" name="StatiXOS/android_vendor_google_pixel" remote="github" revision="11" />
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="11" />
 
 </manifest>
