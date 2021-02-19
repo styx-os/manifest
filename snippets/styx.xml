@@ -60,6 +60,18 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="404-gitlab" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="styx" />
+  <project path="external/cpu_features" name="external_cpu_features" remote="styx" />
+  <project path="external/freetype" name="external_freetype" remote="styx" />
+  <project path="external/giflib" name="external_giflib" remote="styx" />
+  <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="styx" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="styx" />
+  <project path="external/libpng" name="external_libpng" remote="styx" />
+  <project path="external/libvpx" name="external_libvpx" remote="styx" />
+  <project path="external/libyuv" name="external_libyuv" remote="styx" />
+  <project path="external/scudo" name="external_scudo" remote="styx" />
+  <project path="external/sqlite" name="external_sqlite" remote="styx" />
+  <project path="external/vixl" name="external_vixl" remote="styx" />
+  <project path="external/zlib" name="external_zlib" remote="styx" />
 
   <!-- Device -->
   <project path="device/styx/sepolicy" name="device_styx_sepolicy" remote="styx" />
