@@ -81,5 +81,6 @@
   <project path="vendor/styx" name="vendor_styx" remote="styx" />
   <project path="vendor/styx-ui" name="vendor_styx-ui" remote="styx" />
   <project path="vendor/google/gms" name="StatiXOS/android_vendor_google_gms" remote="gitlab" revision="11"/>
+  <project path="vendor/google/pixel" name="StatiXOS/android_vendor_google_pixel" remote="github" revision="11" />
 
 </manifest>
