@@ -7,6 +7,10 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
+  
+  <remote  name="404-gitlab"
+           fetch="https://gitlab.com/project-404"
+           revision="rippa" />
 
   <!-- Build repositories -->
   <project path="build/make" name="build" remote="styx" >
@@ -42,10 +46,11 @@
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="styx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="styx"/>
-
+ 
   <!-- External -->
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
-
+  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="404-gitlab" />
+  
   <!-- Device -->
   <project path="device/styx/sepolicy" name="device_styx_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="styx" />
