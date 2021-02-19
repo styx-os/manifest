@@ -44,6 +44,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="styx" />
   <project path="frameworks/native" name="frameworks_native" remote="styx"/>
 
+
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="styx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="styx"/>
@@ -63,6 +64,7 @@
   <project path="system/vold" name="system_vold" remote="styx"/>  
   <project path="system/bt" name="system_bt" remote="styx"/>
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="styx"/>
+  <project path="system/iorap" name="system_iorap" remote="styx" />
 
   <!-- Packages -->
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="styx"/>
