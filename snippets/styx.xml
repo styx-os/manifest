@@ -52,7 +52,8 @@
   <!-- External -->
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="404-gitlab" />
-  
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="styx" />
+
   <!-- Device -->
   <project path="device/styx/sepolicy" name="device_styx_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="styx" />

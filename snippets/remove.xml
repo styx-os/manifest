@@ -96,4 +96,5 @@
   <remove-project name="platform/art"/>
   <remove-project name="platform/system/memory/lmkd"/>
   <remove-project name="platform/system/iorap"/>
+  <remove-project name="platform/external/arm-optimized-routines"/>
 </manifest>
