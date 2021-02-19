@@ -54,6 +54,8 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="404-gitlab" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="styx" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="styx" />
+  <project path="external/cpu_features" name="external_cpu_features" remote="styx" />
 
   <!-- Device -->
   <project path="device/styx/sepolicy" name="device_styx_sepolicy" remote="styx" />

@@ -98,4 +98,6 @@
   <remove-project name="platform/system/iorap"/>
   <remove-project name="platform/system/tools/hidl"/>
   <remove-project name="platform/external/arm-optimized-routines"/>
+  <remove-project name="platform/external/cpu_features" />
+  <remove-project name="platform/external/libjpeg-turbo" />
 </manifest>
