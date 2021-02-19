@@ -7,6 +7,9 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
   
   <remote  name="404-gitlab"
            fetch="https://gitlab.com/project-404"
@@ -77,5 +80,6 @@
   <!-- Vendor -->
   <project path="vendor/styx" name="vendor_styx" remote="styx" />
   <project path="vendor/styx-ui" name="vendor_styx-ui" remote="styx" />
+  <project path="vendor/google/gms" name="StatiXOS/android_vendor_google_gms" remote="gitlab" revision="11"/>
 
 </manifest>
