@@ -67,6 +67,7 @@
   <project path="system/vold" name="system_vold" remote="styx"/>  
   <project path="system/bt" name="system_bt" remote="styx"/>
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="styx"/>
+  <project path="system/tools/hidl" name="system_tools_hidl" remote="styx"/>
   <project path="system/iorap" name="system_iorap" remote="styx" />
 
   <!-- Packages -->
