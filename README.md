@@ -1,4 +1,4 @@
-![Styx](art/StyxBanner.png)
+![Styx](StyxBanner.png)
 
 Styx is a simple, clean, beautiful Android based custom ROM that strives to provide a stable and fluid experience, with minimal enhancements and features to bring out the most out of your Android device.
 
