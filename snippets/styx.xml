@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="styx"
-           fetch="https://github.com/styxproject"
+           fetch="https://github.com/StyxProject"
            revision="R" />
 
   <remote  name="github"
