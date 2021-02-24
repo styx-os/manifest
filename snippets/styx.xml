@@ -49,6 +49,7 @@
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="styx" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="styx"/>
+  <project path="hardware/motorola" name="hardware_motorola" remote="styx"/>
  
   <!-- External -->
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
