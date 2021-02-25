@@ -15,6 +15,10 @@
            fetch="https://gitlab.com/project-404"
            revision="rippa" />
 
+  <remote  name="StyxProject-Devices" 
+           fetch="https://github.com/StyxProject-Devices/"
+           revision="R"/>
+
   <!-- Build repositories -->
   <project path="build/make" name="build" remote="styx" >
     <copyfile src="core/root.mk" dest="Makefile" />
