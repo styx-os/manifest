@@ -35,6 +35,7 @@
   </project>
   <project path="bionic" name="bionic" remote="styx"/>
   <project path="build/blueprint" name="build_blueprint" remote="styx"/>
+  <project path="libcore" name="libcore" remote="styx" />
 
   <!-- Android RunTime -->
   <project path="art" name="art" remote="styx" />
