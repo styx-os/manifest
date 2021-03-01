@@ -6,6 +6,9 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bootable/recovery" />
 
+  <!-- Repos tracked from POSP -->
+  <remove-project name="platform/external/selinux" />
+
   <!-- Useless repos -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />

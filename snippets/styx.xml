@@ -15,6 +15,10 @@
            fetch="https://gitlab.com/project-404"
            revision="rippa" />
 
+  <remote  name="posp"
+           fetch="https://github.com/PotatoProject"
+           revision="dumaloo-release" />
+
   <remote  name="StyxProject-Devices" 
            fetch="https://github.com/StyxProject-Devices/"
            revision="R"/>
@@ -58,6 +62,7 @@
   <project path="hardware/styx/interfaces" name="hardware_styx_interfaces" remote="styx"/>
  
   <!-- External -->
+  <project path="external/selinux" name="external_selinux" remote="posp"/>
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="404-gitlab" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="styx" />
