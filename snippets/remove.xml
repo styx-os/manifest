@@ -106,6 +106,7 @@
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/giflib" />
   <remove-project name="platform/external/harfbuzz_ng" />
+  <remove-project name="platform/development"/>
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libvpx" />

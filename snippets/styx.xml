@@ -83,6 +83,9 @@
   <project path="external/vixl" name="external_vixl" remote="styx" />
   <project path="external/zlib" name="external_zlib" remote="styx" />
 
+  <!-- Development -->
+  <project path="development" name="development" remote="styx"/>
+
   <!-- Device -->
   <project path="device/styx/sepolicy" name="device_styx_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="styx" />
