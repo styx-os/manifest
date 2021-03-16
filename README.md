@@ -10,7 +10,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 **Initializing the manifest.**
 
 ```
-repo init -u https://github.com/styx-os/manifest -b R
+repo init -u https://github.com/StyxProject/manifest -b R
 ```
 
 **Syncing the source.**
