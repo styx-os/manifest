@@ -69,6 +69,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="styx" />
   <project path="external/google-fonts/cutive-mono" name="external_google-fonts_cutive-mono" remote="styx"/>
   <project path="external/noto-fonts" name="external_noto-fonts" remote="styx" />
+  <project path="external/angle" name="external_angle" remote="styx" />
   <project path="external/roboto-fonts" name="external_roboto-fonts" remote="styx" />
   <project path="external/cpu_features" name="external_cpu_features" remote="styx" />
   <project path="external/freetype" name="external_freetype" remote="styx" />
