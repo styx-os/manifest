@@ -103,6 +103,7 @@
   <project path="system/iorap" name="system_iorap" remote="styx" />
 
   <!-- Packages -->
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="styx"/>
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="styx"/>
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="styx"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="styx" />
