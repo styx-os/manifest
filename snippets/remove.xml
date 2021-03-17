@@ -95,6 +95,7 @@
   <remove-project name="platform/libcore"/>
   <remove-project name="platform/external/tinycompress"/>
   <remove-project name="platform/system/core"/>
+  <remove-project name="platform/system/update_engine"/>
   <remove-project name="platform/system/vold"/>
   <remove-project name="platform/system/bt"/>
   <remove-project name="platform/art"/>
