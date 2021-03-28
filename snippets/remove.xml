@@ -107,6 +107,7 @@
   <remove-project name="platform/external/angle"/>
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/giflib" />
+  <remove-project name="platform/external/lz4"/>
   <remove-project name="platform/external/harfbuzz_ng" />
   <remove-project name="platform/development"/>
   <remove-project name="platform/external/libjpeg-turbo" />

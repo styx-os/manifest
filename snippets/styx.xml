@@ -75,6 +75,7 @@
   <project path="external/freetype" name="external_freetype" remote="styx" />
   <project path="external/giflib" name="external_giflib" remote="styx" />
   <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="styx" />
+  <project path="external/lz4" name="external_lz4" remote="styx" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="styx" />
   <project path="external/libpng" name="external_libpng" remote="styx" />
   <project path="external/libvpx" name="external_libvpx" remote="styx" />
