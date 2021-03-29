@@ -1,0 +1,24 @@
+#!/bin/bash
+sudo apt install wget -y
+if [ ! -f ~/.ssh/config ]; then
+  mkdir -p ~/.ssh && echo "Host *" > ~/.ssh/config && \
+  	echo " StrictHostKeyChecking no" >> ~/.ssh/config;
+  chmod 400 ~/.ssh/config;
+fi
+echo "$SSH_KEY" >> ~/.ssh/id_rsa;
+chmod 600 ~/.ssh/id_rsa;
+
+mkdir -p /tmp/rom # Where to sync source
+cd /tmp/rom
+# For repo to work, define git user; preferably bot
+git config --global user.email "singhalaashil@gmail.com"
+git config --global user.name "aashil123"
+
+# Sync Sources
+repo init -u https://github.com/StyxProject/manifest -b  R;
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j 30 || repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j 8
+wget https://github.com/aashil123/scripts/raw/master/gerrit/push-all-repos.sh
+wget https://github.com/aashil123/scripts/raw/master/gerrit/create-projects.sh
+bash create-projects.sh
+bash push-all-repos.sh
+echo "Pushed To Gerrit "
