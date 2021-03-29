@@ -1,0 +1,14 @@
+env: # Environt variable to pass to all tasks
+    CIRRUS_CLONE_DEPTH: 1 # No need to clone with whole history
+    CIRRUS_WORKING_DIR: "/tmp/ci" # Where to clone repo
+    SSH_KEY: "ENCRYPTED[bbd407dab0da6a0294fea660d1d64186436a9598148e10fef23dec484a945405fd4799289539a24578ba128e1f47ea87]"
+
+task:
+    name: Cesium # Project name
+    timeout_in: 120m # Otherwise it will timeout at 60m automatically, 120m highest in free account
+    container:
+      image: apon77/aosp:latest # It has built in setup environment + repo, aria2, rclone, pigz, username ci, and email ci@ci.ci [You can use your own docker image if you want, or you can use this one too!]
+      cpu: 8 
+      memory: 24G # So that we can have ram when needed, 24G hhighest
+    gerrit_script: # To sync source
+      - ./gerrit # Source sync and push to gerrit
