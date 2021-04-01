@@ -19,6 +19,10 @@
            fetch="https://github.com/PotatoProject"
            revision="dumaloo-release" />
 
+  <remote  name="pe"
+           fetch="https://github.com/PixelExperience"
+           revision="eleven" />
+
   <remote  name="StyxProject-Devices" 
            fetch="https://github.com/StyxProject-Devices/"
            revision="R"/>
