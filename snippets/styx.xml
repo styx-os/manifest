@@ -70,14 +70,14 @@
   <!-- Device -->
   <project path="device/styx/sepolicy" name="device_styx_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="styx" />
-  <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="pe" />
+  <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="styx" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="styx" />
   <project path="device/qcom/common" name="StatiXOS/android_device_qcom_common" remote="github" revision="11"/>
 
  <!-- Mediatek Additions -->
-  <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="pe" />
-  <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="pe" />
+  <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="pixel" />
+  <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="pixel" />
  
  <!-- System -->
   <project path="system/core" name="system_core" remote="styx"/>

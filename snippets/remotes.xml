@@ -19,7 +19,7 @@
            fetch="https://github.com/PotatoProject"
            revision="dumaloo-release" />
 
-  <remote  name="pe"
+  <remote  name="pixel"
            fetch="https://github.com/PixelExperience"
            revision="eleven" />
 
