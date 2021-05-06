@@ -69,7 +69,6 @@
   <project path="development" name="development" remote="styx"/>
 
   <!-- Device -->
-  <project path="device/styx/sepolicy" name="device_styx_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="styx" />
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="styx" />
