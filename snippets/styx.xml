@@ -92,6 +92,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="styx"/>
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="styx"/>
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="styx"/> 
+  <project path="packages/apps/MotoLiveWallpaper3" name="packages_apps_MotoLiveWallpaper3" remote="styx"/>
   <project path="packages/apps/TimeWeather" name="NemesisDevelopers/motorola/motorola_timeweather" remote="gitlab" revision="eleven"/>
   <project path="packages/apps/MotoSignatureApp" name="NemesisDevelopers/motorola/motorola_motosignatureapp" remote="gitlab" revision="eleven"/>
 
