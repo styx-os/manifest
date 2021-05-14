@@ -70,6 +70,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="styx"/>
   <project path="frameworks/av" name="frameworks_av" remote="styx" />
   <project path="frameworks/native" name="frameworks_native" remote="styx"/>
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="styx" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="styx"/>
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="styx"/>
 
@@ -139,7 +140,7 @@
   <project path="vendor/styx" name="vendor_styx" remote="styx" />
   <project path="vendor/google/gms" name="StatiXOS/android_vendor_google_gms" remote="gitlab" revision="11"/>
   <project path="vendor/google/pixel" name="StatiXOS/android_vendor_google_pixel" remote="github" revision="11" />
-  <project path="vendor/codeaurora/telephony" name="RevengeOS/android_vendor_codeaurora_telephony" remote="github" revision="r11.0" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="styx" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="ruby" />
 
   <!-- Prebuilts --> 
