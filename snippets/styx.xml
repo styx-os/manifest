@@ -142,6 +142,7 @@
   <project path="vendor/google/pixel" name="StatiXOS/android_vendor_google_pixel" remote="github" revision="11" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="styx" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="ruby" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="Wave-Project/vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="r" />
 
   <!-- Prebuilts --> 
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="BenzoRom/benzoClang-13.0" remote="github" revision="master" />
