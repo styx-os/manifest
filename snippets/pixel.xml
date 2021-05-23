@@ -7,7 +7,6 @@
 
   <!-- CodeAurora additions -->
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="pixel" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
