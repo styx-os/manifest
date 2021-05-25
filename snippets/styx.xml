@@ -102,7 +102,7 @@
   <project path="external/scudo" name="external_scudo" remote="styx" />
   <project path="external/sqlite" name="external_sqlite" remote="styx" />
   <project path="external/vixl" name="external_vixl" remote="styx" />
-  <project path="external/zlib" name="external_zlib" remote="styx" />
+  <project path="external/zlib-ng" name="external_zlib" remote="styx" />
 
   <!-- Development -->
   <project path="development" name="development" remote="styx"/>
