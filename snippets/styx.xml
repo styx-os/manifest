@@ -79,6 +79,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="styx"/>
   <project path="hardware/motorola" name="hardware_motorola" remote="styx"/>
   <project path="hardware/styx/interfaces" name="hardware_styx_interfaces" remote="styx"/>
+  <project path="hardware/ril" name="hardware_ril" remote="styx"/>
  
   <!-- External -->
   <project path="external/selinux" name="external_selinux" remote="styx"/>
