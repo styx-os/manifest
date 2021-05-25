@@ -130,4 +130,5 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/external/python/cpython2" />
+  <remove-project name="platform/external/compiler-rt" />
 </manifest>

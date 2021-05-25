@@ -107,6 +107,7 @@
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="styx" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="styx" />
   <project path="external/python/cpython2" name="external_python_cpython2" remote="styx" />
+  <project path="external/compiler-rt" name="external_compiler-rt" remote="styx" />
 
   <!-- Development -->
   <project path="development" name="development" remote="styx"/>
