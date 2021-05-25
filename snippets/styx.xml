@@ -105,6 +105,7 @@
   <project path="external/vixl" name="external_vixl" remote="styx" />
   <project path="external/zlib-ng" name="external_zlib" remote="styx" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="styx" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="styx" />
 
   <!-- Development -->
   <project path="development" name="development" remote="styx"/>
