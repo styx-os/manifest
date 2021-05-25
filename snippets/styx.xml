@@ -121,6 +121,7 @@
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="styx"/>
   <project path="system/tools/hidl" name="system_tools_hidl" remote="styx"/>
   <project path="system/iorap" name="system_iorap" remote="styx" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="styx" />
 
   <!-- Packages -->
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="styx"/>
