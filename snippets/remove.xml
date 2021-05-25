@@ -125,4 +125,5 @@
   <remove-project name="platform/external/roboto-fonts" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/tools/metalava" />
 </manifest>

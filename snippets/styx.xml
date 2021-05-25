@@ -150,4 +150,6 @@
   <!-- Prebuilts --> 
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="BenzoRom/benzoClang-13.0" remote="github" revision="master" />
 
+  <!-- Tools -->
+  <project name="tools_metalava" path="tools/metalava" remote="styx" />
 </manifest>
