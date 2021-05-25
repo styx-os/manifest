@@ -125,6 +125,7 @@
   <project path="system/tools/hidl" name="system_tools_hidl" remote="styx"/>
   <project path="system/iorap" name="system_iorap" remote="styx" />
   <project path="system/sepolicy" name="system_sepolicy" remote="styx" />
+  <project path="system/linkerconfig" name="system_linkerconfig" remote="styx" />
 
   <!-- Packages -->
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="styx"/>
