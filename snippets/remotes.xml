@@ -15,10 +15,6 @@
            fetch="https://gitlab.com/project-404"
            revision="rippa" />
 
-  <remote  name="posp"
-           fetch="https://github.com/PotatoProject"
-           revision="dumaloo-release" />
-
   <remote  name="pixel"
            fetch="https://github.com/PixelExperience"
            revision="eleven" />

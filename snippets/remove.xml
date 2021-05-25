@@ -5,8 +5,6 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bootable/recovery" />
-
-  <!-- Repos tracked from POSP -->
   <remove-project name="platform/external/selinux" />
 
   <!-- Useless repos -->

@@ -81,7 +81,7 @@
   <project path="hardware/styx/interfaces" name="hardware_styx_interfaces" remote="styx"/>
  
   <!-- External -->
-  <project path="external/selinux" name="external_selinux" remote="posp"/>
+  <project path="external/selinux" name="external_selinux" remote="styx"/>
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="404-gitlab" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="styx" />
