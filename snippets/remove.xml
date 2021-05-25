@@ -124,4 +124,5 @@
   <remove-project name="platform/external/noto-fonts" />
   <remove-project name="platform/external/roboto-fonts" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/jemalloc_new" />
 </manifest>

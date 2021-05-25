@@ -103,6 +103,7 @@
   <project path="external/sqlite" name="external_sqlite" remote="styx" />
   <project path="external/vixl" name="external_vixl" remote="styx" />
   <project path="external/zlib-ng" name="external_zlib" remote="styx" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="styx" />
 
   <!-- Development -->
   <project path="development" name="development" remote="styx"/>
