@@ -145,7 +145,7 @@
 
   <!-- Vendor -->
   <project path="vendor/styx" name="vendor_styx" remote="styx" />
-  <project path="vendor/stnfc" name="vendor_stnfc" remote="styx" />
+  <!-- <project path="vendor/stnfc" name="vendor_stnfc" remote="styx" /> -->
   <project path="vendor/google/gms" name="StatiXOS/android_vendor_google_gms" remote="gitlab" revision="11"/>
   <project path="vendor/google/pixel" name="StatiXOS/android_vendor_google_pixel" remote="github" revision="11" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="styx" />
