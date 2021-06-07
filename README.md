@@ -27,6 +27,9 @@ lunch styx_device-buildtype
 m styx-ota
 ```
 
+### Maintainership
+ * Make a PR on github.com/StyxProject/devices with your device trees and past experience.
+
 ### Credits.
  * [**Paranoid Android**](https://github.com/AOSPA)
  * [**LineageOS**](https://github.com/LineageOS)
