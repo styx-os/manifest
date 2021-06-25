@@ -117,6 +117,7 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libyuv" />
   <remove-project name="platform/external/scudo" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/vixl" />
   <remove-project name="platform/external/zlib" />
