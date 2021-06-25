@@ -126,7 +126,6 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/tools/metalava" />
-  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/external/python/cpython2" />
