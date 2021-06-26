@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- AOSP additions -->
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="styx" revision="R" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="styx" revision="R" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="styx" revision="R" />
+
   <!-- CodeAurora additions -->
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="styx">
       <!-- add guard for AOSP hardware/qcom dir -->
