@@ -137,6 +137,7 @@
   <project path="system/linkerconfig" name="system_linkerconfig" remote="styx" />
 
   <!-- Packages -->
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="styx" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="styx" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="styx" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="styx" />
@@ -155,6 +156,7 @@
   <project path="packages/apps/StyxWallpapers" name="packages_apps_StyxWallpapers" remote="styx"/>
   <project path="packages/apps/TimeWeather" name="NemesisDevelopers/motorola/motorola_timeweather" remote="gitlab" revision="eleven"/>
   <project path="packages/apps/MotoSignatureApp" name="NemesisDevelopers/motorola/motorola_motosignatureapp" remote="gitlab" revision="eleven"/>
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="styx" />
 
   <!-- Vendor -->
   <project path="vendor/styx" name="vendor_styx" remote="styx" />
