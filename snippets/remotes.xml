@@ -10,10 +10,6 @@
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
-  
-  <remote  name="404-gitlab"
-           fetch="https://gitlab.com/project-404"
-           revision="rippa" />
 
   <remote  name="pixel"
            fetch="https://github.com/PixelExperience"

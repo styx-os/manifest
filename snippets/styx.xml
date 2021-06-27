@@ -71,6 +71,10 @@
   <!-- Styx Recovery -->
   <project path="bootable/recovery" name="bootable_recovery" remote="styx"/>
 
+  <!-- Faceunlock -->
+  <project path="external/faceunlock" name="styxproject/external_faceunlock" remote="gitlab" revision="R"/>
+  <project path="packages/apps/FaceUnlockService" name="styxproject/packages_apps_faceunlockservice" remote="gitlab" revision="R"/>
+
   <!-- Frameworks repos -->
   <project path="frameworks/base" name="frameworks_base" remote="styx"/>
   <project path="frameworks/av" name="frameworks_av" remote="styx" />
@@ -87,7 +91,6 @@
   <!-- External -->
   <project path="external/selinux" name="external_selinux" remote="styx"/>
   <project path="external/tinycompress" name="external_tinycompress" remote="styx"/>
-  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="404-gitlab" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="styx" />
   <project path="external/google-fonts/cutive-mono" name="external_google-fonts_cutive-mono" remote="styx"/>
   <project path="external/noto-fonts" name="external_noto-fonts" remote="styx" />
