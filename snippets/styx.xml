@@ -81,6 +81,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="styx"/>
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="styx" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="styx"/>
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="styx"/>
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="styx" />
