@@ -126,6 +126,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="styx" />
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="styx" />
   <project path="device/mediatek/common" name="device_mediatek_common" remote="styx" />
+  <project path="device/styx/sepolicy" name="device_styx_sepolicy" remote="styx" />
   <project path="device/qcom/common" name="StatiXOS/android_device_qcom_common" remote="github" revision="11"/>
 
   <!-- System -->
