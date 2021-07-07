@@ -138,6 +138,7 @@
   <project path="system/iorap" name="system_iorap" remote="styx" />
   <project path="system/sepolicy" name="system_sepolicy" remote="styx" />
   <project path="system/linkerconfig" name="system_linkerconfig" remote="styx" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="styx" />
 
   <!-- Packages -->
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="styx" />
