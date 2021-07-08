@@ -121,6 +121,7 @@
   <project path="development" name="development" remote="styx"/>
 
   <!-- Device -->
+  <project path="device/qcom/wlan" name="device_qcom_wlan" remote="styx" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="styx" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="styx" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="styx" />
@@ -171,6 +172,7 @@
   <project path="vendor/google/pixel" name="StatiXOS/android_vendor_google_pixel" remote="github" revision="11" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="styx" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="ruby" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom-opensource_vibrator" remote="styx" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="Wave-Project/vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="r" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="styx" />
 
