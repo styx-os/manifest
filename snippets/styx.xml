@@ -164,6 +164,7 @@
   <project path="packages/apps/TimeWeather" name="NemesisDevelopers/motorola/motorola_timeweather" remote="gitlab" revision="eleven"/>
   <project path="packages/apps/MotoSignatureApp" name="NemesisDevelopers/motorola/motorola_motosignatureapp" remote="gitlab" revision="eleven"/>
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="styx" />
+  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="styx" />
 
   <!-- Vendor -->
   <project path="vendor/styx" name="vendor_styx" remote="styx" />
