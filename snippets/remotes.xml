@@ -11,6 +11,10 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org"
+           revision="ruby" />
+
   <remote  name="pixel"
            fetch="https://github.com/PixelExperience"
            revision="eleven" />
